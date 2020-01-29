@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:background="@color/com_facebook_button_background_color"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/round_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="@string/add_car"
+            android:textSize="20sp"
+            android:fontFamily="roboto"
+            android:textColor="@color/design_default_color_primary"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/round_white_rectangle">
+
+            <ImageView
+                android:src="@mipmap/ic_cars"
+                android:layout_margin="10dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:contentDescription="@string/name" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:hint="@string/name"
+                android:inputType="text"
+                android:nextFocusDown="@+id/registration_number_et"
+                android:nextFocusForward="@+id/registration_number_et" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/round_white_rectangle">
+
+            <ImageView
+                android:src="@mipmap/ic_locations"
+                android:layout_margin="10dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:contentDescription="@string/type" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/type_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:hint="@string/type"
+                android:nextFocusDown="@+id/colour_et"
+                android:nextFocusForward="@+id/colour_et" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/car_photo_iv"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:contentDescription="@string/profile">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/car_photo_edit_iv"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/ic_add_photo"
+                android:contentDescription="@string/images">
+            </ImageView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/container_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/dark_grey"
+            android:clickable="true"
+            android:focusable="false"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progress_bar" />
+
+            <TextView
+                android:id="@+id/progress_bar_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/stone_black"
+                android:gravity="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/add_car_btn"
+            android:textColor="@color/dark_sky_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:fontFamily="roboto"
+            android:textAllCaps="false"
+            android:text="@string/add_car" />
+
+        <Button
+            android:id="@+id/close_car_btn"
+            android:textColor="@color/com_facebook_button_background_color_pressed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:fontFamily="roboto"
+            android:textAllCaps="false"
+            android:text="@string/close" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

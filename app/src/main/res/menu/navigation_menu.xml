@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@mipmap/ic_account_circle"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/nav_fares"
+        android:icon="@mipmap/ic_fares"
+        android:title="@string/fares" />
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@mipmap/ic_about"
+        android:title="@string/about" />
+
+    <item
+        android:id="@+id/log_out"
+        android:icon="@mipmap/ic_more_vert"
+        android:title="@string/logOut" />
+
+</menu>

@@ -1,0 +1,123 @@
+<resources>
+    // App name
+    <string name="app_name">MobileApp</string>
+
+    // Facebook
+    <string name="facebook_app_id">972238553112305</string>
+    <string name="fb_login_protocol_scheme">fb972238553112305</string>
+
+    // General
+    <string name="login_here">LOGIN HERE</string>
+    <string name="register">REGISTER HERE</string>
+    <string name="account">Do not have an account?</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="already_have_acc">Already have an account?</string>
+    <string name="remember_pass">Remember password?</string>
+
+    // Buttons
+    <string name="login">Login</string>
+    <string name="register_label">Register</string>
+    <string name="recovery">Send Recovery Code</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_out">Sign out</string>
+
+    // Fields placeholders
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+    <string name="pass">Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+
+    // Validation Errors
+    <string name="invalid_email">Please enter valid email</string>
+    <string name="invalid_password">Please enter valid password</string>
+    <string name="invalid_username">Please enter valid username</string>
+    <string name="invalid_phone">Please enter valid phone</string>
+    <string name="different_password_fields">Passwords should match</string>
+    <string name="same_username">You already have this username</string>
+    <string name="same_phone">You already have this phone number</string>
+    <string name="same_email">You already have this email</string>
+
+    // Profile
+    <string name="welcome">Welcome,</string>
+    <string name="user_phone_label">Your phone:</string>
+    <string name="user_email_label">Your email:</string>
+    <string name="edit_profile">Edit profile</string>
+
+    // Default String for Shared Preferences
+    <string name="unavailable">Unavailable</string>
+
+    // Login
+    <string name="sign_in_success">Signed in successfully</string>
+    <string name="sign_in_failure">Sign in failed</string>
+
+    // Registration
+    <string name="sign_up_success">Signed up successfully</string>
+    <string name="sign_up_failure">Sign up failed</string>
+
+    // Forget Password
+    <string name="recovery_code_is_sent">You will receive recovery code soon!</string>
+
+    // Updating username
+    <string name="adding_name_success">Username successfully added</string>
+    <string name="adding_name_failure">Username was not added</string>
+
+    // Email sending confirmation
+    <string name="email_is_sent">Email was sent successfully</string>
+    <string name="email_sending_error">Email was not sent: error</string>
+
+    // Facebook
+    <string name="fb_login_cancel">User cancelled Facebook login</string>
+    <string name="firebase_auth_success">Authentication is successful.(Firebase)</string>
+    <string name="firebase_auth_failure">Authentication failed.(Firebase)</string>
+
+    // Google
+    <string name="google_auth_success">Google authentication is successful</string>
+    <string name="google_auth_failure">Google authentication failed(Firebase part)</string>
+    <string name="google_internal_auth_failure">Google authentication failed(Google part)</string>
+
+    // About
+    <string name="app_description">App description</string>
+
+    // Buttons
+    <string name="see_details">See details</string>
+
+    // Navigation Menu
+    <string name="profile">Profile</string>
+    <string name="fares">Fares</string>
+    <string name="images">Images</string>
+    <string name="about">About</string>
+    <string name="logOut">Log Out</string>
+
+    // Search
+    <string name="search_label">Search</string>
+    <string name="search_car">Search fare</string>
+    <string name="search_car_message">Enter the name of the fare</string>
+    <string name="search_image">Search Image</string>
+    <string name="search_image_message">Enter the title of the image</string>
+    <string name="search_user">Search User</string>
+    <string name="search_user_message">Enter the name of the user</string>
+    <string name="search_fare">Search Fare</string>
+    <string name="search_fare_message">Enter a UUID of the fare</string>
+
+    // Other
+    <string name="no_internet">No Internet connection</string>
+    <string name="not_found">Not Found</string>
+    <string name="load_data">Loading data</string>
+    <string name="saved">Saved!</string>
+    <string name="error">Error occurred</string>
+    <string name="invalid_field">Invalid field</string>
+
+    // Add
+    <string name="add_label">Add</string>
+    <string name="add_car">Add fare</string>
+    <string name="add_car_message">Enter the details of the fare</string>
+    <string name="registration_number">Registration Number</string>
+    <string name="type">Status</string>
+    <string name="colour">Colour</string>
+    <string name="name">UUID</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

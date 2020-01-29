@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_purple">#36213e</color>
+    <color name="independence">#554971</color>
+    <color name="slate_gray">#63768d</color>
+    <color name="dark_sky_blue">#8ac6d0</color>
+    <color name="diamond">#b8f3ff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="none">#00ffffff</color>
+    <color name="black">#00000000</color>
+    <color name="stone_black">#44000000</color>
+    <color name="grey">#2affffff</color>
+    <color name="milk_white">#e7e7e7</color>
+    <color name="dark_grey">#99999999</color>
+</resources>
